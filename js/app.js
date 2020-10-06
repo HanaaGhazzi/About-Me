@@ -41,7 +41,7 @@ if (food === 'yes' || food === 'y') {
     countaier++ ;
 }
 
-var hobby = prompt('Am I photographer ?').toLowerCase();
+var hobby = prompt('Am I a photographer ?').toLowerCase();
 console.log('hobby = ', hobby)
 if (hobby === 'yes' || hobby === 'y') {
     alert('correct answer !')
@@ -102,5 +102,5 @@ for (var i = 0; i < 7; i++) {
     }
 
 }
-
+alert('my fav food is mansaf, shawrma, burger, taboleh, makmora, kubba, salad, pizza, yalanji and sheshbark ')
 alert('your score is =' + countaier)
